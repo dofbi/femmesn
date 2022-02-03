@@ -1,0 +1,43 @@
+{
+  "name": "femmesn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "femmesn",
+  "author": "Mamadou Diagne",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "@styled-system/theme-get": "^5.1.2",
+    "babel-plugin-styled-components": "^2.0.2",
+    "gatsby": "^4.6.1",
+    "gatsby-plugin-manifest": "^4.6.0",
+    "gatsby-plugin-react-helmet": "^5.6.0",
+    "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-plugin-styled-components": "^5.6.0",
+    "gatsby-source-filesystem": "^4.6.0",
+    "gatsby-transformer-json": "^4.6.0",
+    "gatsby-transformer-sharp": "^4.6.0",
+    "react": "^17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons-kit": "^2.0.0",
+    "react-id-swiper": "^2.4.0",
+    "react-is": "^17.0.2",
+    "react-reveal": "^1.2.2",
+    "react-scrollspy": "^3.4.3",
+    "react-stickynode": "^4.0.0",
+    "styled-components": "^5.3.3",
+    "styled-system": "^5.1.5",
+    "swiper": "^5.4.5"
+  }
+}
