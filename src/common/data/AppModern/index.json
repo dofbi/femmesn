@@ -76,7 +76,7 @@
 				"color": "#f18e47",
 				"icon": "../../assets/image/appModern/icon4.svg",
 				"title": "Quand S'incrire ?",
-				"description": "2 au 21 Fevrier 2022."
+				"description": "6 au 28 Fevrier 2022."
 			}
 		]
 	},
@@ -99,26 +99,26 @@
 				"title": "App Slide 1"
 			}
 		],
-		"title": "Smart Jackpots that you may love this anytime & anywhere",
-		"description": "The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.",
+		"title": "Le CTID, 1ère structure d’accompagnement de projets innovants à Djibouti",
+		"description": "À pour objectif de hausser le potentiel technologique de Djibouti en mettant en place des programmes de formations adaptés avec les besoins spécifiques du marché Djiboutien. Pour ce faire, en sa qualité de « Fabrique des Talents », le CTID promeut l’engagement citoyen des jeunes, et les femmes en particulier, par la détection et la valorisation des acteurs engagés au service du rayonnement de l’innovation, la vulgarisation de la Technologie et du renforcement de l’écosystème entrepreneurial à Djibouti. Le programme « Femmes et Numérique » a pour objectif de : ",
 		"features": [
 			{
 				"id": 1,
 				"icon": "../../assets/image/appModern/icon1.svg",
-				"title": "Easy Invoicing",
-				"description": "Surprice your clients with professional looking invoices."
+				"title": "Sensibiliser",
+				"description": "Au numérique"
 			},
 			{
 				"id": 2,
 				"icon": "../../assets/image/appModern/icon1.svg",
-				"title": "UX Planning",
-				"description": "UI/UX Design by following and maintaining the latest trends ."
+				"title": "Former",
+				"description": "Au codage, communication digitale et la robotique"
 			},
 			{
 				"id": 3,
 				"icon": "../../assets/image/appModern/icon1.svg",
-				"title": "Customer Support",
-				"description": "A Dedicated support team will be always ready for you."
+				"title": "Accompagner",
+				"description": "À l’entrepreunariat numérique"
 			}
 		]
 	},
