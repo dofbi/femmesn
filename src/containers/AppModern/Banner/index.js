@@ -40,7 +40,7 @@ const Banner = () => {
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="Le programme de formation «Femmes et Numériques»"
+              content="Programme «Femmes et Numérique»"
             />
           </Fade>
           <Fade up delay={200}>

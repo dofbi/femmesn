@@ -10,7 +10,7 @@
 			},
 			{
 				"id": 2,
-				"label": "Femmes & Numériques",
+				"label": "Femmes & Numérique",
 				"path": "#features",
 				"offset": "81"
 			},
@@ -47,7 +47,7 @@
 	],
 
 	"features": {
-		"slogan": "Femmes & Numériques",
+		"slogan": "Femmes & Numérique",
 		"title": "Appel à Candidature",
 		"items": [
 			{
@@ -124,10 +124,10 @@
 	},
 
 	"designAndBuilt": {
-		"image": "../../assets/image/appModern/code.png",
-		"slogan": "CODE INTEGRATION",
-		"title": "Introducing coding features of our apps with Customization",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features that Lorem ipsum dolor sit amet consectetur."
+		"image": "../../assets/image/appModern/code.jpg",
+		"slogan": "PARTENAIRE",
+		"title": "Partenariat entre le CTID et l'Ambassade de France à Djibouti",
+		"description": "Dans le cadre du fonds d’appui aux projets innovants de la société civile et coalitions d’acteurs (PISCCA) "
 	},
 
 	"productData": {

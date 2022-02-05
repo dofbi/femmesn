@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-      title: `Femmes et Numériques`,
-      description: `Le programme de formation «Femmes et Numériques» est destiné à la promotion et l’autonomisation des jeunes filles et femmes dans  l’économie numérique en République de Djibouti.`,
+      title: `Femmes et Numérique`,
+      description: `Le programme de formation «Femmes et Numérique» est destiné à la promotion et l’autonomisation des jeunes filles et femmes dans  l’économie numérique en République de Djibouti.`,
       author: `@dofbi`,
       siteUrl: `https://femmes-numerique.ctid-djibouti.org`,
     },
@@ -40,7 +40,7 @@ module.exports = {
       {
         resolve: `gatsby-plugin-manifest`,
         options: {
-          name: `Femmes et Numériques`,
+          name: `Femmes et Numérique`,
           short_name: `FemmesNum`,
           start_url: `/`,
           background_color: `#2b2080`,
