@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
-      title: `femmesn`,
-      description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-      author: `@gatsbyjs`,
-      siteUrl: `https://www.yourdomain.tld`,
+      title: `Femmes et Numériques`,
+      description: `Le programme de formation «Femmes et Numériques» est destiné à la promotion et l’autonomisation des jeunes filles et femmes dans  l’économie numérique en République de Djibouti.`,
+      author: `@dofbi`,
+      siteUrl: `https://femmes-numerique.ctid-djibouti.org`,
     },
     plugins: [
       {
@@ -40,11 +40,11 @@ module.exports = {
       {
         resolve: `gatsby-plugin-manifest`,
         options: {
-          name: `gatsby-starter-default`,
-          short_name: `starter`,
+          name: `Femmes et Numériques`,
+          short_name: `FemmesNum`,
           start_url: `/`,
-          background_color: `#663399`,
-          theme_color: `#663399`,
+          background_color: `#2b2080`,
+          theme_color: `#2b2080`,
           display: `minimal-ui`,
           icon: `src/images/favicon.png`, // This path is relative to the root of the site.
         },

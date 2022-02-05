@@ -8,18 +8,18 @@ const BannerWrapper = styled.div`
   position: relative;
   background-image: -moz-linear-gradient(
     139deg,
-    rgb(100, 43, 115) 0%,
-    rgb(198, 66, 110) 100%
+    rgb(80, 68, 186) 0%,
+    rgb(43, 32, 128) 100%
   );
   background-image: -webkit-linear-gradient(
     139deg,
-    rgb(100, 43, 115) 0%,
-    rgb(198, 66, 110) 100%
+    rgb(80, 68, 186) 0%,
+    rgb(43, 32, 128) 100%
   );
   background-image: -ms-linear-gradient(
     139deg,
-    rgb(100, 43, 115) 0%,
-    rgb(198, 66, 110) 100%
+    rgb(80, 68, 186) 0%,
+    rgb(43, 32, 128) 100%
   );
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
     min-height: 100vh;

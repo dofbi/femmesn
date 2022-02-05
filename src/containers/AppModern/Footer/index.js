@@ -1,13 +1,8 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Box from '../../../common/components/Box';
-import Text from '../../../common/components/Text';
-import Image from '../../../common/components/Image';
 import Logo from '../../../common/components/UIElements/Logo';
-import Heading from '../../../common/components/Heading';
 import Container from '../../../common/components/UI/Container';
 import FooterArea, {
-  WidgetArea,
   MenuArea,
   Menu,
   MenuItem,
@@ -39,23 +34,13 @@ const Footer = () => {
       }
     }
   `);
-  const { logo, menu, widgets } = data.appModernJson.footer;
+  const { logo, menu } = data.appModernJson.footer;
   const date = new Date();
   const year = date.getFullYear();
 
   return (
     <FooterArea>
       <Container>
-        <WidgetArea>
-          {widgets.map(item => (
-            <Box className="col" key={`footer-widget--key${item.id}`}>
-              <Image src={item.icon.publicURL} alt={item.title} />
-              <Heading as="h3" content={item.title} />
-              <Text content={item.description} />
-            </Box>
-          ))}
-        </WidgetArea>
-        {/* End of footer widgets area */}
         <MenuArea>
           <Logo
             className="logo"
@@ -70,7 +55,7 @@ const Footer = () => {
               </MenuItem>
             ))}
           </Menu>
-          <CopyrightText>Copyright {year} By RedQ Inc</CopyrightText>
+          <CopyrightText>Copyright {year} CTID Djibout</CopyrightText>
         </MenuArea>
         {/* End of footer menu area */}
       </Container>

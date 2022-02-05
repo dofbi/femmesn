@@ -13,7 +13,7 @@ const FooterArea = styled.footer`
   }
   .logo {
     img {
-      width: 128px;
+      width: 200px;
       height: auto;
     }
   }

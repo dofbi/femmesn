@@ -19,12 +19,12 @@ const NavbarWrapper = styled.nav`
     justify-content: space-between;
     .main-logo {
       img {
-        width: 128px;
+        width: 200px;
         height: auto;
       }
     }
     .logo-alt {
-      width: 128px;
+      width: 200px;
       height: auto;
       display: none;
     }

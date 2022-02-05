@@ -1,50 +1,21 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { useStaticQuery, graphql } from 'gatsby';
-import { Icon } from 'react-icons-kit';
-import { playCircle } from 'react-icons-kit/fa/playCircle';
-// import { openModal, closeModal } from '@redq/reuse-modal';
 import Text from '../../../common/components/Text';
 import Image from '../../../common/components/Image';
 import Button from '../../../common/components/Button';
 import Heading from '../../../common/components/Heading';
-import Rating from '../../../common/components/Rating';
 import Container from '../../../common/components/UI/Container';
 import BannerWrapper, {
   BannerContent,
-  RatingInfo,
   BannerImage,
   ButtonGroup,
-  // VideoGroup,
-  // VideoWrapper,
   CustomerWrapper,
   ImageWrapper,
 } from './banner.style';
 
-import microsoft from '../../../common/assets/image/appModern/envato-icon.png';
 import bannerImg from '../../../common/assets/image/appModern/banner2.png';
-// import videoBanner1 from '../../../common/assets/image/appModern/video-1.png';
-// import videoBanner2 from '../../../common/assets/image/appModern/video-2.png';
 import circleBorder from '../../../common/assets/image/appModern/shape.svg';
-// close button for modal
-// const CloseModalButton = () => (
-//   <Button
-//     className="modalCloseBtn"
-//     variant="fab"
-//     onClick={() => closeModal()}
-//     icon={<i className="flaticon-plus-symbol" />}
-//   />
-// );
-
-// const ModalContent = () => (
-//   <VideoWrapper>
-//     <iframe
-//       title="Video"
-//       src="https://www.youtube.com/embed/8ME-QAlW6Ww"
-//       frameBorder="0"
-//     />
-//   </VideoWrapper>
-// );
 
 const Banner = () => {
   const data = useStaticQuery(graphql`
@@ -61,73 +32,27 @@ const Banner = () => {
     }
   `);
   const { client } = data.appModernJson;
-  // modal handler
-  // const handleVideoModal = () => {
-  //   openModal({
-  //     config: {
-  //       className: 'video-modal',
-  //       disableDragging: true,
-  //       default: {
-  //         width: 'auto',
-  //         height: 'auto',
-  //         x: 0,
-  //         y: 0,
-  //       },
-  //     },
-  //     component: ModalContent,
-  //     componentProps: {},
-  //     closeComponent: CloseModalButton,
-  //     closeOnClickOutside: true,
-  //   });
-  // };
+  
   return (
     <BannerWrapper id="home">
       <Container>
         <BannerContent>
-          <Fade up>
-            <RatingInfo>
-              <Rating rating={4} />
-              4.9 of 5 By <img src={microsoft} alt="Microsoft" />
-            </RatingInfo>
-          </Fade>
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="The Revolution of
-          Ultimate Platform to
-          monitor your task"
+              content="Le programme de formation «Femmes et Numériques»"
             />
           </Fade>
           <Fade up delay={200}>
             <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna
-          ipsum dolor sit amet consectetur."
+              content="Est destiné à la promotion et l’autonomisation des jeunes filles et femmes dans  l’économie numérique en République de Djibouti."
             />
           </Fade>
           <Fade up delay={300}>
             <ButtonGroup>
-              <Button className="primary" title="Start Free trail" />
-              <Button
-                className="text"
-                variant="textButton"
-                icon={<Icon icon={playCircle} />}
-                iconPosition="left"
-                title="Watch Video"
-              />
+              <Button className="primary" title="Inscription" />
             </ButtonGroup>
           </Fade>
-          {/* <VideoGroup>
-            <img
-              src={videoBanner1}
-              onClick={handleVideoModal}
-              alt="Microsoft"
-            />
-            <img
-              src={videoBanner2}
-              onClick={handleVideoModal}
-              alt="Microsoft"
-            />
-          </VideoGroup> */}
         </BannerContent>
         <BannerImage>
           <Fade up delay={100}>
@@ -136,7 +61,7 @@ const Banner = () => {
         </BannerImage>
       </Container>
       <CustomerWrapper>
-        <Text content="Trusted by companies like:" />
+        <Text content="Partenaires:" />
         <ImageWrapper>
           {client.map(item => (
             <Image

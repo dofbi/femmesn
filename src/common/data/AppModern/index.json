@@ -4,32 +4,20 @@
 		"navMenu": [
 			{
 				"id": 1,
-				"label": "Home",
+				"label": "Accueil",
 				"path": "#home",
 				"offset": "84"
 			},
 			{
 				"id": 2,
-				"label": "Key Features",
+				"label": "Femmes & Numériques",
 				"path": "#features",
 				"offset": "81"
 			},
 			{
 				"id": 3,
-				"label": "Testimonial",
+				"label": "Témoignage",
 				"path": "#testimonial",
-				"offset": "81"
-			},
-			{
-				"id": 4,
-				"label": "Pricing",
-				"path": "#pricing",
-				"offset": "81"
-			},
-			{
-				"id": 5,
-				"label": "Team Members",
-				"path": "#team",
 				"offset": "81"
 			}
 		]
@@ -59,36 +47,36 @@
 	],
 
 	"features": {
-		"slogan": "KEY FEATURES",
-		"title": "Why you choose our app",
+		"slogan": "Femmes & Numériques",
+		"title": "Appel à Candidature",
 		"items": [
 			{
 				"id": 1,
 				"color": "#F55767",
 				"icon": "../../assets/image/appModern/icon1.svg",
-				"title": "App Development",
-				"description": "We are specialized at custom Saas Application Development and special features."
+				"title": "Quoi ?",
+				"description": "Formation et accompagnement de femmes entrepreneures dans l'écononomie numérique."
 			},
 			{
 				"id": 2,
 				"color": "#ff4742",
 				"icon": "../../assets/image/appModern/icon2.svg",
-				"title": "10 Times Award",
-				"description": "We are globally recognised for our services and won a lot of prices around the world ."
+				"title": "Qui ?",
+				"description": "Jeunes filles et femmes de 18 à 35 ans."
 			},
 			{
 				"id": 3,
 				"color": "#fb5781",
 				"icon": "../../assets/image/appModern/icon3.svg",
-				"title": "Cloud Storage",
-				"description": "LiteSpeed Web Server known for its high performance and low resource consumption."
+				"title": "Où ?",
+				"description": "A Djibouti-Ville, Ali-Sabieh, Arta, Dikhil, Obock et Tadjourah."
 			},
 			{
 				"id": 4,
 				"color": "#f18e47",
 				"icon": "../../assets/image/appModern/icon4.svg",
-				"title": "Customization",
-				"description": "Client Satisfaction is our first priority and We are best at it. Keep In Touch for the best output. "
+				"title": "Quand S'incrire ?",
+				"description": "2 au 21 Fevrier 2022."
 			}
 		]
 	},
