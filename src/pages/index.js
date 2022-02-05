@@ -8,6 +8,7 @@ import Banner from '../containers/AppModern/Banner';
 import AppSlider from '../containers/AppModern/AppSlider';
 import Features from '../containers/AppModern/Features';
 import Testimonial from '../containers/AppModern/Testimonial';
+import Inscriptions from '../containers/AppModern/Inscriptions';
 import DesignedAndBuilt from '../containers/AppModern/DesignedAndBuilt';
 import Footer from '../containers/AppModern/Footer';
 import GlobalStyle, {
@@ -34,6 +35,7 @@ export default function App() {
             <Features />
             <AppSlider />
             <Testimonial />
+            <Inscriptions />
             <DesignedAndBuilt />
           </ContentWrapper>
           <Footer />
