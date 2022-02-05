@@ -23,7 +23,9 @@ const Testimonial = () => {
             id
             title
             description
-            avatar
+            avatar {
+              publicURL
+            }
             name
             designation
             review
@@ -84,7 +86,7 @@ const Testimonial = () => {
                       <Text content={item.description} />
                       <div className="card-footer">
                         <div className="image">
-                          <Image src={item.avatar} alt="Client Image" />
+                          <Image src={item.avatar.publicURL} alt="Client Image" />
                         </div>
                         <div className="reviewer-info">
                           <div className="content">

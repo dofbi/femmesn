@@ -16,7 +16,7 @@
 			},
 			{
 				"id": 3,
-				"label": "Témoignage",
+				"label": "Témoignages",
 				"path": "#testimonial",
 				"offset": "81"
 			}
@@ -334,34 +334,25 @@
 	},
 
 	"testimonial": {
-		"slogan": "TESTIMONIAL",
-		"title": "Meet Client Satisfaction by using product",
+		"slogan": "Témoignages",
+		"title": "Nos Talents ont la parole",
 		"reviews": [
 			{
 				"id": 1,
-				"title": "Modern look & trending design",
-				"description": "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-				"avatar": "https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg",
-				"name": "Jon Doe",
-				"designation": "CEO of RedQ Inc.",
+				"title": "Épanouissement",
+				"description": "J'ai de la chance, avec cette formation j'apprends énormément chaque jour, cela m'aide à m'épanouir",
+				"avatar": "../../assets/image/appModern/avatar01.jpg",
+				"name": "HALIMO DOUKSIEH ABDI",
+				"designation": "Horn Digital Academy",
 				"review": 4
 			},
 			{
 				"id": 2,
-				"title": "User friendly & Customizable",
-				"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.",
-				"avatar": "https://randomuser.me/api/portraits/women/44.jpg",
-				"name": "Jeny Doe",
-				"designation": "Co Founder of RedQ Inc.",
-				"review": 5
-			},
-			{
-				"id": 3,
-				"title": "User friendly & Customizable",
-				"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.",
-				"avatar": "https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg",
-				"name": "Jon Doe",
-				"designation": "Co Founder of RedQ Inc.",
+				"title": "Emploi",
+				"description": "Grâce à cette formation, j'espère acquérir les connaissances nécessaires pour trouver un emploi décent",
+				"avatar": "../../assets/image/appModern/avatar02.jpg",
+				"name": "ASMA MAHAMOUD IBRAHIM",
+				"designation": "Horn Digital Academy",
 				"review": 5
 			}
 		]
