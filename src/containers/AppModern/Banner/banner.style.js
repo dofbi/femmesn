@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get'
 
 const BannerWrapper = styled.div`
-  padding-top: 100px;
+  padding-top: 50px;
   min-height: 802px;
   overflow: hidden;
   position: relative;
