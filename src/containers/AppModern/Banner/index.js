@@ -6,6 +6,7 @@ import Image from '../../../common/components/Image';
 import Button from '../../../common/components/Button';
 import Heading from '../../../common/components/Heading';
 import Container from '../../../common/components/UI/Container';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import BannerWrapper, {
   BannerContent,
   BannerImage,
@@ -49,8 +50,11 @@ const Banner = () => {
             />
           </Fade>
           <Fade up delay={300}>
+
             <ButtonGroup>
-              <Button className="primary" title="Inscription" />
+              <AnchorLink href="#inscription">
+                <Button className="primary" title="Inscription" />
+              </AnchorLink>
             </ButtonGroup>
           </Fade>
         </BannerContent>

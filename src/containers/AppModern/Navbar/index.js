@@ -80,13 +80,13 @@ const Navbar = () => {
     <NavbarWrapper className="navbar">
       <Container>
         <Logo
-          href="/appmodern"
+          href="/"
           logoSrc={LogoImage}
           title="App Modern"
           className="main-logo"
         />
         <Logo
-          href="/appmodern"
+          href="/"
           logoSrc={LogoImageAlt}
           title="App Modern"
           className="logo-alt"
@@ -97,7 +97,7 @@ const Navbar = () => {
           <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
           {/* end of main menu */}
 
-          <AnchorLink href="#trail" offset={84}>
+          <AnchorLink href="#inscription" offset={84}>
             <Button className="trail" title="Inscription" />
           </AnchorLink>
 
@@ -140,7 +140,9 @@ const Navbar = () => {
               </li>
             ))}
           </Scrollspy>
-          <Button title="Inscription" />
+          <AnchorLink href="#inscription" onClick={handleRemoveMenu}>
+            <Button title="Inscription" />
+          </AnchorLink>
         </Container>
       </MobileMenu>
       {/* end of mobile menu */}

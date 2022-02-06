@@ -29,7 +29,7 @@ const DesignedAndBuilt = () => {
   } = data.appModernJson.designAndBuilt;
 
   return (
-    <SectionWrapper>
+    <SectionWrapper id="partners">
       <Container>
         <ContentWrapper>
           <div className="content">

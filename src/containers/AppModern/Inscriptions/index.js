@@ -8,7 +8,7 @@ import SectionWrapper, { CarouselWrapper } from './inscriptions.style';
 const Inscriptions = () => {
 
   return (
-    <SectionWrapper id="testimonial">
+    <SectionWrapper id="inscription">
       <Container>
         <SectionHeader>
           <Fade up>
@@ -20,7 +20,7 @@ const Inscriptions = () => {
         <CarouselWrapper>
           <Fade up delay={100}>
               <Fragment>
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddYoPO6uZ7MjhPttOnV3XHNzLAEU1LAcFYOEvhFv62CjuV_g/viewform?embedded=true" width="100%" height="3736" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddYoPO6uZ7MjhPttOnV3XHNzLAEU1LAcFYOEvhFv62CjuV_g/viewform?embedded=true" width="100%" height="3736" frameborder="0" marginheight="0" marginwidth="0" title="inscription">Chargement…</iframe>
               </Fragment>
           </Fade>
         </CarouselWrapper>

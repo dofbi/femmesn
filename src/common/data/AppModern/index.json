@@ -19,6 +19,12 @@
 				"label": "Témoignages",
 				"path": "#testimonial",
 				"offset": "81"
+			},
+			{
+				"id": 4,
+				"label": "Partenaires",
+				"path": "#partners",
+				"offset": "81"
 			}
 		]
 	},
@@ -85,17 +91,17 @@
 		"carousel": [
 			{
 				"id": 1,
-				"image": "../../assets/image/appModern/appSlider1.png",
+				"image": "../../assets/image/appModern/appSlider1.jpg",
 				"title": "App Slide 1"
 			},
 			{
 				"id": 2,
-				"image": "../../assets/image/appModern/appSlider2.png",
+				"image": "../../assets/image/appModern/appSlider2.jpg",
 				"title": "App Slide 1"
 			},
 			{
 				"id": 3,
-				"image": "../../assets/image/appModern/appSlider3.png",
+				"image": "../../assets/image/appModern/appSlider3.jpg",
 				"title": "App Slide 1"
 			}
 		],
@@ -383,28 +389,28 @@
 		"menu": [
 			{
 				"id": 1,
-				"text": "Home",
-				"link": "#"
+				"text": "Accueil",
+				"link": "#home"
 			},
 			{
 				"id": 2,
-				"text": "Adversite",
-				"link": "#"
+				"text": "Femmes & Numérique",
+				"link": "#features"
 			},
 			{
 				"id": 3,
-				"text": "Supports",
-				"link": "#"
+				"text": "Témoignages",
+				"link": "#testimonial"
 			},
 			{
 				"id": 4,
-				"text": "Marketing",
-				"link": "#"
+				"text": "Partenaires",
+				"link": "#partners"
 			},
 			{
 				"id": 5,
-				"text": "Contact",
-				"link": "#"
+				"text": "Inscription",
+				"link": "#inscription"
 			}
 		]
 	}
