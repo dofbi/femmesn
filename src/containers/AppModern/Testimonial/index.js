@@ -93,7 +93,7 @@ const Testimonial = () => {
                             <Heading as="h4" content={item.name} />
                             <Text content={item.designation} />
                           </div>
-                          <Rating rating={item.review} />
+                          {/* <Rating rating={item.review} /> */}
                         </div>
                       </div>
                     </div>
