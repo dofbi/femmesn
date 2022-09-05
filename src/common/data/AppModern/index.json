@@ -392,8 +392,8 @@
         "description": "J'aimerais, à la suite des compétences acquise lors de cette formation, transmettre aux jeunes filles, ma passion pour l'informatique",
         "avatar": "../../assets/image/appModern/dagan-moussa-bogoreh-p.webp",
         "name": "DAGAN MOUSSA BOGOREH",
-        "designation": "Horn Digital Academy",
-        "review": "5"
+        "designation": "Horn Digital Academy"
+
       },
       {
         "id": 2,
@@ -401,125 +401,113 @@
         "description": "L'informatique n'était pas mon domaine de prédilection. Je me suis inscrite par curiosité à cette formation parce que le monde du travail devient de plus en plus centré autour du numérique",
         "avatar": "../../assets/image/appModern/ismahan-djama-atteyeh-p.webp",
         "name": "ISMAHAN DJAMA ATTEYEH",
-        "designation": "Horn Digital Academy",
-        "review": 5
+        "designation": "Horn Digital Academy"
       },
       {
-        "id": "3",
+        "id": 3,
+        "title": "Entreprise",
         "description": "Cette formation est très utile pour moi dans la mesure où elle me permet d'acquérir des compétences solides en marketing digital pour lancer ma propre entreprise",
         "avatar": "../../assets/image/appModern/saida-mohamed-ali-p.webp",
         "name": "SAIDA MOHAMED ALI",
-        "designation": "Horn Digital Academy",
-        "review": "5",
-        "title": "Entreprise"
+        "designation": "Horn Digital Academy"
       },
       {
-        "id": "4",
+        "id": 4,
+        "title": "Expérience",
         "avatar": "../../assets/image/appModern/kaltoum-ismael-daher-p.webp",
         "name": "KALTOUM ISMAËL DAHER",
         "designation": "Horn Digital Academy",
-        "review": "4",
-        "description": "C'est une véritable expérience, sur plusieurs  plans. Cette formation m'aide à me rapprocher de ma passion",
-        "title": "Expérience"
+        "description": "C'est une véritable expérience, sur plusieurs  plans. Cette formation m'aide à me rapprocher de ma passion"
       },
       {
-        "id": "5",
+        "id": 5,
         "title": "Apprentissage",
         "description": "Mon cursus universitaire tournait autour de l'informatique et pourtant, ça ne m'empêche pas d'apprendre de cette formation, l'informatique est un  millieu dans lequel l'apprentissage ne s'arrête jamais",
         "avatar": "../../assets/image/appModern/muntaz-hassan-p.webp",
         "name": "MUNTAZ HASSAN",
-        "designation": "Horn Digital Academy",
-        "review": "5"
+        "designation": "Horn Digital Academy"
+
       },
       {
-        "id": "6",
+        "id": 6,
         "title": "Opportunité",
         "avatar": "../../assets/image/appModern/zeinab-samiteh-djama-p.webp",
         "name": "ZEINAB SAMITEH DJAMA",
         "designation": "Horn Digital Academy",
-        "review": "5",
         "description": "Quand j'ai vu l'annonce sur Facebook je n'ai pas hésité, j'ai partagé autour de moi parcequ'une formation comme celle-ci, c'est une opportunité"
       },
       {
-        "id": "7",
+        "id": 7,
         "avatar": "../../assets/image/appModern/mouna-mahamoud-abdi-p.webp",
         "name": "MOUNA MAHAMOUD ABDI",
         "designation": "Horn Digital Academy",
-        "review": "5",
         "description": "J'aimerais forger plus de compétence en informatique, pour qu'à mon tour je puisse les ré-utiliser un jour",
         "title": "Forger"
       },
       {
-        "id": "8",
+        "id": 8,
         "title": "Formation",
         "avatar": "../../assets/image/appModern/nasra-ahmed-daoud-p.webp",
         "name": "NASRA AHMED DAOUD",
         "designation": "Horn Digital Academy",
-        "review": "5",
         "description": "Je veux être une femme indépendante, créer mes propres sites et cette formation m'offre pas mal d'outils dans ce sens, et c'est idéal pour s'exercer"
       },
       {
-        "id": "9",
+        "id": 9,
+        "title": "Avenir",
         "description": "Le Développement Web est une compétence qui pourra  m'aider si, à l'avenir, je décide de me lancer en free-lance",
         "avatar": "../../assets/image/appModern/kadra-hassan-guelleh-p.webp",
         "name": "KADRA HASSAN GUELLEH",
-        "designation": "Horn Digital Academy",
-        "review": "5",
-        "title": "Avenir"
+        "designation": "Horn Digital Academy"
       },
       {
-        "id": "10",
+        "id": 10,
         "title": "Numérique",
         "description": "J'ai longtemps hésité avant de me lancer et de sauter le pas pour m'inscrire. Alors je conseillerais aux jeunes filles de se former elles aussi au numérique  !",
         "avatar": "../../assets/image/appModern/kadra-robleh-osman-p.webp",
         "designation": "Horn Digital Academy",
-        "review": "5",
         "name": "KADRA ROBLEH OSMAN"
       },
       {
-        "id": "11",
+        "id": 11,
         "title": "Transmettre",
         "avatar": "../../assets/image/appModern/fatouma-mahamoud-ibrahim-p.webp",
         "designation": "Horn Digital Academy",
-        "review": "5",
         "name": "FATOUMA MAHAMOUD IBRAHIM",
         "description": "Mon rêve est de créer ma propre application. En ce sens, cette formation constitue un pas en avant vers la réalisation de mon rêve car même en étant femme, le numérique est un monde où je suis sûre de trouver ma place. C’est ce que je voudrais transmettre à toute les filles autour de moi!"
       },
       {
-        "id": "12",
+        "id": 12,
         "title": "Capacités",
         "description": "A la base, je n'avais pas un bon niveau en informatique. Depuis que je me suis inscrite à cette formation, j'ai pu améliorer mon niveau et renforcer mes capacités dans le numérique",
         "avatar": "../../assets/image/appModern/ikran-said-abdi-p.webp",
         "name": "IKRAN SAID ABDI",
-        "designation": "Horn Digital Academy",
-        "review": "5"
+        "designation": "Horn Digital Academy"
       },
       {
-        "id": "13",
+        "id": 13,
         "title": "Apprendre",
         "description": "Je trouve cette formation adaptée à mes attentes et je continue d'apprendre depuis que je m'y suis inscrite",
         "avatar": "../../assets/image/appModern/halima-ahmed-ali-p.webp",
         "name": "HALIMA AHMED ALI",
-        "designation": "Horn Digital Academy",
-        "review": "5"
+        "designation": "Horn Digital Academy"
+
       },
       {
-        "id": "14",
+        "id": 14,
+        "title": "Opportunités",
         "description": "En définitive, ce n'est pas un choix que je regrette. Le numérique est un monde varié et où les opportunités sont nombreuses",
         "avatar": "../../assets/image/appModern/soumeya-souleiman-sbdillahi-p.webp",
         "name": "SOUMEYA SOULEIMAN ABDILLAHI",
-        "designation": "Horn Digital Academy",
-        "review": "5",
-        "title": "Opportunités"
+        "designation": "Horn Digital Academy"
       },
       {
-        "id": "15",
+        "id": 15,
+        "title": "Micro-entreprise",
         "description": "J'ai fondé une micro-entreprise. Cette formation va donc m'aider à la promouvoir à travers le Marketing digital",
         "avatar": "../../assets/image/appModern/djamila-mohamed-abdi-p.webp",
         "name": "DJAMILA MOHAMED ABDI",
-        "designation": "Horn Digital Academy",
-        "review": "5",
-        "title": "Micro-entreprise"
+        "designation": "Horn Digital Academy"
       }
     ]
   },

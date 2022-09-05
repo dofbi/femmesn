@@ -6,7 +6,6 @@ import Heading from '../../../common/components/Heading';
 import Button from '../../../common/components/Button';
 import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
-import Rating from '../../../common/components/Rating';
 import GlideCarousel from '../../../common/components/GlideCarousel';
 import GlideSlide from '../../../common/components/GlideCarousel/glideSlide';
 import { SectionHeader } from '../appModern.style';
@@ -28,7 +27,6 @@ const Testimonial = () => {
             }
             name
             designation
-            review
           }
         }
       }
@@ -93,7 +91,6 @@ const Testimonial = () => {
                             <Heading as="h4" content={item.name} />
                             <Text content={item.designation} />
                           </div>
-                          {/* <Rating rating={item.review} /> */}
                         </div>
                       </div>
                     </div>
