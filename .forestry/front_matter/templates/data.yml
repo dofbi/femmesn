@@ -1,0 +1,318 @@
+---
+label: data
+hide_body: true
+fields:
+- type: field_group
+  name: navbar
+  label: navbar
+  fields:
+  - type: file
+    name: logo
+    label: logo
+  - type: field_group_list
+    name: navMenu
+    label: navMenu
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: path
+      label: path
+    - type: text
+      name: offset
+      label: offset
+- type: field_group_list
+  name: client
+  label: client
+  fields:
+  - type: number
+    name: id
+    label: id
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: features
+  label: features
+  fields:
+  - type: text
+    name: slogan
+    label: slogan
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: text
+      name: color
+      label: color
+    - type: file
+      name: icon
+      label: icon
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+- type: field_group
+  name: appSlider
+  label: appSlider
+  fields:
+  - type: field_group_list
+    name: carousel
+    label: carousel
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: title
+      label: title
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+  - type: field_group_list
+    name: features
+    label: features
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: file
+      name: icon
+      label: icon
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+- type: field_group
+  name: designAndBuilt
+  label: designAndBuilt
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: slogan
+    label: slogan
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+- type: field_group
+  name: productData
+  label: productData
+  fields:
+  - type: text
+    name: slogan
+    label: slogan
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: slider
+    label: slider
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: file
+      name: thumb_url
+      label: thumb_url
+    - type: text
+      name: link
+      label: link
+    - type: text
+      name: title
+      label: title
+- type: field_group
+  name: pricing
+  label: pricing
+  fields:
+  - type: text
+    name: slogan
+    label: slogan
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: monthly
+    label: monthly
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+    - type: boolean
+      name: suggested
+      label: suggested
+    - type: number
+      name: price
+      label: price
+    - type: field_group_list
+      name: features
+      label: features
+      fields:
+      - type: number
+        name: id
+        label: id
+      - type: text
+        name: text
+        label: text
+  - type: field_group_list
+    name: annualy
+    label: annualy
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+    - type: boolean
+      name: suggested
+      label: suggested
+    - type: number
+      name: price
+      label: price
+    - type: number
+      name: trail
+      label: trail
+    - type: text
+      name: trailLink
+      label: trailLink
+    - type: field_group_list
+      name: features
+      label: features
+      fields:
+      - type: number
+        name: id
+        label: id
+      - type: text
+        name: text
+        label: text
+- type: field_group
+  name: teamportfolio
+  label: teamportfolio
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+  - type: field_group_list
+    name: teammember
+    label: teammember
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: file
+      name: img
+      label: img
+    - type: text
+      name: text
+      label: text
+- type: field_group
+  name: testimonial
+  label: testimonial
+  fields:
+  - type: text
+    name: slogan
+    label: slogan
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: reviews
+    label: reviews
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: description
+      label: description
+    - type: file
+      name: avatar
+      label: avatar
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: designation
+      label: designation
+    - type: number
+      name: review
+      label: review
+- type: field_group
+  name: footer
+  label: footer
+  fields:
+  - type: field_group_list
+    name: widgets
+    label: widgets
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: file
+      name: icon
+      label: icon
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+  - type: file
+    name: logo
+    label: logo
+  - type: field_group_list
+    name: menu
+    label: menu
+    fields:
+    - type: number
+      name: id
+      label: id
+    - type: text
+      name: text
+      label: text
+    - type: text
+      name: link
+      label: link
