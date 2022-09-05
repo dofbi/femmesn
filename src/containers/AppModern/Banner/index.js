@@ -15,7 +15,7 @@ import BannerWrapper, {
   ImageWrapper,
 } from './banner.style';
 
-import bannerImg from '../../../common/assets/image/appModern/banner2.png';
+import bannerImg from '../../../common/assets/image/appModern/banner2.webp';
 import circleBorder from '../../../common/assets/image/appModern/shape.svg';
 
 const Banner = () => {

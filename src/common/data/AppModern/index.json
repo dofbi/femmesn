@@ -31,22 +31,22 @@
   "client": [
     {
       "id": 1,
-      "image": "../../assets/image/appModern/company1.png",
+      "image": "../../assets/image/appModern/company1.webp",
       "title": "The new york times"
     },
     {
       "id": 2,
-      "image": "../../assets/image/appModern/company2.png",
+      "image": "../../assets/image/appModern/company2.webp",
       "title": "amazon"
     },
     {
       "id": 3,
-      "image": "../../assets/image/appModern/company3.png",
+      "image": "../../assets/image/appModern/company3.webp",
       "title": "evernote"
     },
     {
       "id": 4,
-      "image": "../../assets/image/appModern/company4.png",
+      "image": "../../assets/image/appModern/company4.webp",
       "title": "the verge"
     }
   ],
@@ -88,17 +88,17 @@
     "carousel": [
       {
         "id": 1,
-        "image": "../../assets/image/appModern/appSlider1.jpg",
+        "image": "../../assets/image/appModern/appSlider1.webp",
         "title": "App Slide 1"
       },
       {
         "id": 2,
-        "image": "../../assets/image/appModern/appSlider2.jpg",
+        "image": "../../assets/image/appModern/appSlider2.webp",
         "title": "App Slide 1"
       },
       {
         "id": 3,
-        "image": "../../assets/image/appModern/appSlider3.jpg",
+        "image": "../../assets/image/appModern/appSlider3.webp",
         "title": "App Slide 1"
       }
     ],
@@ -126,7 +126,7 @@
     ]
   },
   "designAndBuilt": {
-    "image": "../../assets/image/appModern/code.jpg",
+    "image": "../../assets/image/appModern/code.webp",
     "slogan": "PARTENAIRE",
     "title": "Partenariat entre le CTID et l'Ambassade de France à Djibouti",
     "description": "Dans le cadre du fonds d’appui aux projets innovants de la société civile et coalitions d’acteurs (PISCCA) "
@@ -137,37 +137,37 @@
     "slider": [
       {
         "id": 1,
-        "thumb_url": "../../assets/image/appModern/dagan-moussa-bogoreh-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/dagan-moussa-bogoreh-fm.webp",
         "link": "#1",
         "title": "Dagan Moussa Bogoreh"
       },
       {
         "id": 2,
-        "thumb_url": "../../assets/image/appModern/ismahan-djama-atteyeh-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/ismahan-djama-atteyeh-fm.webp",
         "link": "#2",
         "title": "Ismahan Djama Atteyeh"
       },
       {
         "id": 3,
-        "thumb_url": "../../assets/image/appModern/saida-mohamed-ali-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/saida-mohamed-ali-fm.webp",
         "link": "#3",
         "title": "Saida Mohamed Ali"
       },
       {
         "id": 4,
-        "thumb_url": "../../assets/image/appModern/kaltoum-ismael-daher-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/kaltoum-ismael-daher-fm.webp",
         "link": "#4",
         "title": "Kaltoum Ismaël daher"
       },
       {
         "id": 5,
-        "thumb_url": "../../assets/image/appModern/muntaz-hassan-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/muntaz-hassan-fm.webp",
         "link": "#5",
         "title": "Muntaz Hassan"
       },
       {
         "id": 6,
-        "thumb_url": "../../assets/image/appModern/zeinab-samiteh-djama-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/zeinab-samiteh-djama-fm.webp",
         "link": "#6",
         "title": "Zeinab Samiteh Djama"
       },
@@ -175,53 +175,53 @@
         "id": 7,
         "link": "#7",
         "title": "Mouna Mahamoud Abdi",
-        "thumb_url": "../../assets/image/appModern/mouna-mahamoud-abdi-fm.jpg"
+        "thumb_url": "../../assets/image/appModern/mouna-mahamoud-abdi-fm.webp"
       },
       {
         "id": 8,
-        "thumb_url": "../../assets/image/appModern/nasra-ahmed-daoud-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/nasra-ahmed-daoud-fm.webp",
         "link": "#8",
         "title": "Nasra Ahmed Daoud"
       },
       {
         "id": 9,
-        "thumb_url": "../../assets/image/appModern/kadra-hassan-guelleh-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/kadra-hassan-guelleh-fm.webp",
         "link": "#9",
         "title": "Kadra Hassan Guelleh"
       },
       {
         "id": 10,
-        "thumb_url": "../../assets/image/appModern/kadra-robleh-osman-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/kadra-robleh-osman-fm.webp",
         "link": "#10",
         "title": "Kadra Robleh Osman"
       },
       {
         "id": 11,
-        "thumb_url": "../../assets/image/appModern/fatouma-mahamoud-ibrahim-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/fatouma-mahamoud-ibrahim-fm.webp",
         "link": "#11",
         "title": "Fatouma Mahamoud Ibrahim"
       },
       {
         "id": 12,
-        "thumb_url": "../../assets/image/appModern/ikran-said-abdi-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/ikran-said-abdi-fm.webp",
         "link": "#12",
         "title": "Ikran Said Abdi"
       },
       {
         "id": 13,
-        "thumb_url": "../../assets/image/appModern/halima-ahmed-ali-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/halima-ahmed-ali-fm.webp",
         "link": "#13",
         "title": "Halima Ahmed Ali"
       },
       {
         "id": 14,
-        "thumb_url": "../../assets/image/appModern/soumeya-souleiman-sbdillahi-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/soumeya-souleiman-sbdillahi-fm.webp",
         "link": "#14",
         "title": "Soumeya souleiman Abdillahi"
       },
       {
         "id": 15,
-        "thumb_url": "../../assets/image/appModern/djamila-mohamed-abdi-fm.jpg",
+        "thumb_url": "../../assets/image/appModern/djamila-mohamed-abdi-fm.webp",
         "link": "#15",
         "title": "Djamila Mohamed Abdi"
       }
@@ -390,7 +390,7 @@
         "id": 1,
         "title": "Transmettre",
         "description": "J'aimerais, à la suite des compétences acquise lors de cette formation, transmettre aux jeunes filles, ma passion pour l'informatique",
-        "avatar": "../../assets/image/appModern/dagan-moussa-bogoreh-p.jpg",
+        "avatar": "../../assets/image/appModern/dagan-moussa-bogoreh-p.webp",
         "name": "DAGAN MOUSSA BOGOREH",
         "designation": "Horn Digital Academy",
         "review": 4
@@ -399,7 +399,7 @@
         "id": 2,
         "title": "Emploi",
         "description": "L'informatique n'était pas mon domaine de prédilection. Je me suis inscrite par curiosité à cette formation parce que le monde du travail devient de plus en plus centré autour du numérique",
-        "avatar": "../../assets/image/appModern/ismahan-djama-atteyeh-p.jpg",
+        "avatar": "../../assets/image/appModern/ismahan-djama-atteyeh-p.webp",
         "name": "ISMAHAN DJAMA ATTEYEH",
         "designation": "Horn Digital Academy",
         "review": 5
