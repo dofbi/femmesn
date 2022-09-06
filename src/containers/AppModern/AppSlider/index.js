@@ -24,6 +24,8 @@ const AppSlider = () => {
 
             title
             description
+            link
+            target
           }
           carousel {
             id
@@ -75,13 +77,15 @@ const AppSlider = () => {
           <Heading content={title} />
           <Text content={description} />
           {features.map(item => (
-            <FeatureBlock
-              key={`app-feature--key${item.id}`}
-              iconPosition="left"
-              icon={<img src={item.icon.publicURL} alt={item.title} />}
-              title={<Heading as="h3" content={item.title} />}
-              description={<Text content={item.description} />}
-            />
+            <a href={item.link} target={item.target}>
+              <FeatureBlock
+                key={`app-feature--key${item.id}`}
+                iconPosition="left"
+                icon={<img src={item.icon.publicURL} alt={item.title} />}
+                title={<Heading as="h3" content={item.title} />}
+                description={<Text content={item.description} />}
+              />
+            </a>
           ))}
         </TextWrapper>
       </Container>

@@ -109,19 +109,25 @@
         "id": 1,
         "icon": "../../assets/image/appModern/icon1.svg",
         "title": "Sensibiliser",
-        "description": "Au numérique"
+        "description": "Au numérique",
+        "link": "#",
+        "target": "_self"
       },
       {
         "id": 2,
         "icon": "../../assets/image/appModern/icon1.svg",
         "title": "Former",
-        "description": "Au codage, communication digitale et la robotique"
+        "description": "Au codage, communication digitale et la robotique",
+        "link": "https://www.horndigital.org/",
+        "target": "_blanc"
       },
       {
         "id": 3,
         "icon": "../../assets/image/appModern/icon1.svg",
         "title": "Accompagner",
-        "description": "À l’entrepreunariat numérique"
+        "description": "À l’entrepreunariat numérique",
+        "link": "#",
+        "target": "_self"
       }
     ]
   },
@@ -133,7 +139,7 @@
   },
   "productData": {
     "slogan": "Bénéficiaire",
-    "title": "Rencontrez nos bénéficiaires de Femmes & Numérique",
+    "title": "Rencontrez nos bénéficiaires",
     "slider": [
       {
         "id": 1,
